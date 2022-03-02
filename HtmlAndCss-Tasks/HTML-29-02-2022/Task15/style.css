@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+h1{
+    font-weight: 900;
+}
+div{
+    background-color:#b9d1ea;
+    padding: 5px;
+    font-size: x-large;
+    color:#3778b6;
+    font-weight:900 ;
+    font-family: serif;
+}
+span{
+    color: #5788cb;
+}
+table{
+    border-style: none;
+    border-spacing: inherit;
+    
+}
+th, td{
+    padding: 0 5px 0 5px;
+}
+th{
+    font-weight: bolder;
+}
+.BG{
+    background-color: #e9e9e9 ;
+}
+.Light{
+    color: #749ed1 ;
+    font-weight: bolder;
+
+}
+.Dark{
+    color: #34659d;
+    font-weight: bolder;
+}
+b{
+    font-family: fantasy ;
+}
+.Sub{
+    background-color: #bfbfbf;
+}
