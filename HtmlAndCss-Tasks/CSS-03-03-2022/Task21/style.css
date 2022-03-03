@@ -1,0 +1,32 @@
+*{
+    box-sizing:border-box ;
+}
+.main{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    
+}
+.outer{
+border: 10px solid yellow;
+padding: 10px;
+height: calc(100%  - 20px);
+width: calc(100%  - 20px);
+position: relative;
+left: 10px;
+top: 10px;
+
+}
+.inner{
+    border: 10px solid yellow;
+    padding: 10px;
+
+    height: 100%;
+
+}
+p{
+    position: relative;
+    top: calc(50% - 20px);
+}

@@ -1,0 +1,17 @@
+div{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.zig{
+    background-color: yellow;
+
+}
+.zag{
+    background-color: green;
+    position: relative;
+    top: 50%;
+}
+.container{
+    width: 100%;
+}

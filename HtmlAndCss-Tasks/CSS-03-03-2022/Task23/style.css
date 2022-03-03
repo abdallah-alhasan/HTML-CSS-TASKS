@@ -1,0 +1,14 @@
+div{
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.even{
+    display: none;
+    margin: 0 10px ;
+}
+
+

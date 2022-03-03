@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(252, 121, 230);
+}
+.Floated{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    height: 150px;
+    background-color: #ddd;
+    float: left;
+    overflow: hidden;
+}
+.scroll{
+float: right;
+border-top: 3px solid ;
+border-bottom: 3px solid ;
+height: 50px;
+overflow-y: scroll;
+font-weight: bold;
+padding: 5px;
+margin: 10px;
+}
