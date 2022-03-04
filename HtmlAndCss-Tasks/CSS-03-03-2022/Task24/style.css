@@ -1,0 +1,39 @@
+body{
+    background-color: lightyellow;
+}
+div{
+    width:70%;
+}
+.one{
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0;
+}
+.yellow{
+    background-color: yellow;
+    padding: 2px;
+    font-weight: bold;
+}
+.orange{
+    background-color: rgb(255, 192, 75);
+    padding: 2px;
+    font-weight: bold;
+}
+.two{
+    border: 1px solid;
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0;
+}
+.three{
+    border: 1px dotted red;
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0;
+    color: red;
+}
+.dotted{
+    border: 1px dotted red;
+
+}

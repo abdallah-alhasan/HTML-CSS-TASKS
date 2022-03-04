@@ -5,12 +5,15 @@ div{
 }
 .zig{
     background-color: yellow;
+    border: 1px solid;
 
 }
 .zag{
     background-color: green;
     position: relative;
     top: 50%;
+    border: 1px solid;
+
 }
 .container{
     width: 100%;
