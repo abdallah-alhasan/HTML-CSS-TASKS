@@ -1,0 +1,25 @@
+.Header{
+    text-decoration: underline;
+}
+.Blue{
+    color: blue;
+}
+a{
+    color: orange;
+}
+.Marked{
+    text-decoration: underline red;    
+}
+.BoldLink{
+    color: red;
+    font-weight: bold;
+}
+.BlueList{
+    color: blue;
+}
+.No{
+    list-style: none;
+}
+.RedLink{
+    color: red;
+}
