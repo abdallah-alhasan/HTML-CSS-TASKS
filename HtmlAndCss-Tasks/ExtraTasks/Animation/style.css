@@ -1,0 +1,77 @@
+p{
+    font-size: 500px;
+    font-family: sans-serif;
+}
+.main{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    animation: test 5s linear 0s 1 normal;   
+ 
+}
+.sub{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    position: absolute;
+        top: 608px;
+        left: 265px;
+    animation: test2 10s linear 4s 1 normal;   
+ 
+} 
+@keyframes test{
+    0%{ position: absolute;
+    top: 925px;
+    left: 555px;
+    background-color: orange;}
+    25% {position: absolute;
+        top: 925px;
+        left: 385px;}
+    50%{
+        position: absolute;
+        top: 606px;
+        left: 385px;
+        background-color: orange;
+    }
+    100%{ background-color: black;
+    }
+}
+
+@keyframes test2{
+    10%{position: absolute;
+        top: 608px;
+        left: 265px;}
+    15%{position: absolute;
+        top: 608px;
+        left: 52px;}
+    20%{position: absolute;
+        top: 758px;
+        left: 52px;}
+    25%{position: absolute;
+        top: 758px;
+        left: 52px;}
+    30%{position: absolute;
+        top: 758px;
+        left: 265px;}
+    35%{position: absolute;
+        top: 758px;
+        left: 52px;}
+    40%{position: absolute;
+        top: 922px;
+        left: 52px;}
+    45%{position: absolute;
+        top: 922px;
+        left: 265px;}  
+    50%{position: absolute;
+        top: 922px;
+        left: 52px;} 
+    55%{position: absolute;
+        top: 758px;
+        left: 52px;}
+    60%{position: absolute;
+        top: 608px;
+        left: 52px;}  
+    65%{position: absolute;
+        top: 608px;
+        left: 265px;}      
+}
