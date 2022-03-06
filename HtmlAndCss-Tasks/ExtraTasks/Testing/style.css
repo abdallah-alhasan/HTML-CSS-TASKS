@@ -1,0 +1,11 @@
+div{
+    display: inline-block;
+}
+.main{
+    width: 1000px;
+    height: 1000px;
+}
+.img{     
+     background-repeat: no-repeat;
+    
+}

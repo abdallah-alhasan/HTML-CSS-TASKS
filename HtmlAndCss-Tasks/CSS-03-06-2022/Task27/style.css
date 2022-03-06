@@ -1,0 +1,21 @@
+.ExtendX{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transition-property: width;
+    transition-duration: 3s;
+}
+.ExtendX:hover{
+    width: 250px;
+}
+.Extend{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    transition-property: width, height;
+    transition-duration: 3s;
+}
+.Extend:hover{
+    width: 150px;
+    height: 150px;
+}
