@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(blue , violet);
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: box 5s infinite;
+}
+@keyframes box {
+    25%{left: 200px;
+         top: 0;
+        background-image: linear-gradient(red, brown);}
+    50%{left: 200px;
+        top: 200px;
+    background-image: linear-gradient(yellow, gold);}
+    75%{left: 0;
+        top: 200px;
+        background-image: linear-gradient(brown, red);}
+    100%{left: 0;
+        top: 0;}
+    
+}

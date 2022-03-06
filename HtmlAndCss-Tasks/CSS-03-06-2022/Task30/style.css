@@ -1,0 +1,21 @@
+.main{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.sub{
+    width: 200px;
+    height: 200px;
+    margin:50% 0;
+    position: absolute;
+    background-color: orange;
+    border: 5px solid;
+    border-radius: 50%;
+    animation: circle 2s infinite;
+}
+@keyframes circle {
+    0%{
+        left: 0;}
+    50%{left: 100%;}
+    100%{left: 0;}
+}

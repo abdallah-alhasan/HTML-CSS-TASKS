@@ -2,6 +2,7 @@
     width: 50px;
     height: 150px;
     padding: 10px;
+    margin-top: 10px;
     background-color: black;
     border-radius: 10%;
 }
@@ -12,7 +13,7 @@
     height:40px;
     background-color: grey;
     border-radius: 50%;
-    margin: 5px;
+    margin: 7px 5px;
 }
 .red{
     animation: red 1s ;
@@ -30,6 +31,7 @@
 }
 .green{
     animation: green 1s  2s ;
+    
 
 }
 @keyframes green {
