@@ -1,16 +1,79 @@
-div{
-    width: 500px;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
+.main{
+    width: 50px;
+    height: 150px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10%;
 }
-p{
-    transition-duration: 10s;
+.red,
+.green,
+.yellow,
+.light{
+    width: 40px;
+    height:40px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: 5px;
     
 }
-p:hover{
-    margin: 100px;
-    font-size: 50px;
-    color: violet;
+
+.red{
+    animation: red 1s ;
+}
+
+
+.yellow{
+    animation: yellow 1s  1s ;
+}
+
+    
+.green{
+    animation: green 1s  2s ;
+
+}
+.light{
+    animation: light 4s  infinite ;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+
+@keyframes light{
+    0%{background-color: red;
+        position: absolute;
+        top: 19px;
+        left: 19px;
+    }
+    24.9%{background-color: red;
+        position: absolute;
+        top: 19px;
+        left: 19px;}
+    25%{ background-color: yellow;
+        position: absolute;
+        top: 61px;
+        left: 19px;
+        
+    }
+    49.5%{ background-color: yellow;
+        position: absolute;
+        top: 61px;
+        left: 19px;
+    }
+    50% {background-color: green;
+        position: absolute;
+        top: 108px;
+        left: 19px;}
+    74.9%{background-color: green;
+        position: absolute;
+        top: 108px;
+        left: 19px;}
+    75%{background-color: yellow;
+        position: absolute;
+        top: 61px;
+        left: 19px;} 
+    100%{background-color: yellow;
+        position: absolute;
+        top: 61px;
+        left: 19px;}    
 }
