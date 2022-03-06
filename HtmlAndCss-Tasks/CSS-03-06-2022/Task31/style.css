@@ -3,14 +3,14 @@
     padding: 0;
 }
 div{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-image: linear-gradient(blue , violet);
     border-radius: 10%;
     position: absolute;
     top: 0;
-    left: 0;
-    animation: box 5s infinite;
+    left: 100px;
+    animation: box 5s linear infinite;
 }
 @keyframes box {
     25%{left: 200px;
