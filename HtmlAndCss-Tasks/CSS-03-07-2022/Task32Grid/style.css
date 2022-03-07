@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.subs{
+    width: 100%;
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+}
