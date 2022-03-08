@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    height: 500px;
+    
+  }
+  #hd{
+    height: 10%;
+    margin-bottom: 2%;
+  }
+  #sec{
+    height: 20%;
+  }
+  #sec div:first-child{
+      margin-right: 2%;
+  }
+  #th{
+    height: 20%;
+    justify-content: space-between;
+  }
+  #th div{
+      background-color: yellow;
+      height: 100%;
+      margin-top: 2%;
+  }
+  #th div:first-child{
+      margin-right: 2%;
+  }
+
+  #th div:nth-child(3){
+    margin-left: 2%;
+}
+#forth{
+    height: 20%;
+    margin-top: 4%;
+  }
+  #forth div:first-child{
+      margin-right: 2%;
+  }
+  #fifth{
+      height: 20%;
+      margin-top: 2%;
+  }
+  #fifth div{
+      background-color: orange;
+  }
+  #fifth div:first-child{
+    margin-right: 2%;
+
+  }
+  #fifth div:nth-child(2){
+    margin-right: 2%;
+
+  }
+  #fifth div:nth-child(3){
+    margin-right: 2%;
+
+  }
+  #st{
+    height: 10%;
+    margin-top: 2%;
+  }
+
+  
