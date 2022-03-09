@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-template-rows: 90%;
+    gap: 20px;
+
+}
+.container div{
+    display: flex;
+    background-color: #403f3f;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    background-color: #dddddd;
+    height: 500px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)
+    );
+    grid-template-rows: 10%;
+    gap: 20px;
+    justify-content: space-around;
+    
+
+}
+.container div{
+    counter-increment: increase 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#607d8b;
+    padding: 20px;
+    color: white;
+}
+.container div::before{
+    content:"Element " counter(increase);
+}
