@@ -115,7 +115,6 @@
       justify-content: center;
       align-content: center;
       padding: 20px;
-
     }
     .me{
       display: flex;
@@ -124,6 +123,7 @@
     }
     h3 span{
       color: var(--main);
+      
     }
    
     img {
@@ -147,15 +147,18 @@
     /* third section start  */
     .card-three{
       min-height: 600px;
-      background-color: #d9d6d9;
+      background-color: #eee;
       display: grid;
       grid-template-columns: 100%;
       column-gap: 20px;
       justify-content: center;
       padding: 20px;
+
     }
     .head{
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .edu-cards{
       display: grid;
@@ -165,10 +168,11 @@
       column-gap: 20px;
     }
     .c{
-      background-color: var(--main);
+      background-color: #88d9dc;
       width: 300px;
+      height: 500px; 
       padding: 20px;
-      margin-top: 10px;
+      margin: 10px 0;
       border-radius: 30px;
     }
     .c:hover{
@@ -185,6 +189,20 @@
       }
       
     }
+/* third section end  */
+/* forth section start  */
+.card-four{
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* forth section end  */
+
+
 
 
  
