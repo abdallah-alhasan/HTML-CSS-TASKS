@@ -1,196 +1,178 @@
 :root {
-   --main: #3dcfd3;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    font-family: "Open Sans", sans-serif;
-    box-sizing: border-box;
-    }
- 
-  
-  /* Start Navbar */
-  .navbar {
-    background:black;
-    min-height: 100px;    
-  }
-  .navbar .navbar-nav .nav-link {
-    color: rgb(248, 248, 248);
-  }
-  .navbar .navbar-nav .nav-link.active,
-  .navbar .navbar-nav .nav-link:focus,
-  .navbar .navbar-nav .nav-link:hover {
-    color: var(--main);
-  }
-  
-  .navbar .navbar-toggler {
-    color: white;
-    font-size: 25px;
-    border-color: white;
-  }
-  .navbar .navbar-toggler:focus {
-    box-shadow: none;
-  }
-  .navbar .navbar-toggler[aria-expanded="true"] {
-    border-color: var(--main);
-  }
-  /* End Navbar */
-  /* first section start  */
-  .first-section{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background: black;
-    clip-path:  polygon(72% 88%, 100% 100%, 100% 0, 0 0, 0 100%);
-    
+  --main: #3dcfd3;    
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
 
-  }
-  .card-one {
-    background-color: transparent;
-    color: white;
-    width: 100%;
-    height: 600px;
-    margin-bottom: 10px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
 
- 
+                                      /* Start Navbar */
+.navbar {
+  background:black;
+  min-height: 100px;    
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(248, 248, 248);
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--main);
+}
 
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
   }
- 
-  
-   .info div{
-     padding: 0 10px;
-   }
- 
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--main);
+}
+                                        /* End Navbar */
+                                        /* first section start  */
+.first-section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: black;
+  clip-path:  polygon(72% 88%, 100% 100%, 100% 0, 0 0, 0 100%);
+}
+.card-one {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.info div{
+  padding: 0 10px;
+}
   h2{
-    font-weight: 900;
-    font-size: clamp(16px, 3vw, 32px);
-    color: var(--main);
-    
+  font-weight: 900;
+  font-size: clamp(16px, 3vw, 32px);
+  color: var(--main);
+}
+
+span{
+  font-size: 2rem;
+  color: white;
+}
+.animated::after{
+  font-size: 2rem;
+  content: "Developer";
+  color: var(--main) ;
+  animation: about  5s linear infinite;
+}
+@keyframes about {
+  0%, 100%{ content: "Freelancer";
+
   }
+  50%{ content: "Designer";
 
-  span{
-    font-size: 2rem;
-    color: white;
   }
-  .animated::after{
-    font-size: 2rem;
-    content: "Developer";
-    color: var(--main) ;
-    animation: about  5s linear infinite;
-  }
-  @keyframes about {
-    0%, 100%{ content: "Freelancer";
-
-    }
-    50%{ content: "Designer";
-
-    }
-  }
- 
-  
-  #CV, #CV a{
-    color: var(--main);
-    text-decoration: none;
-    background-color: black;
-    border-color: var(--main);
-    padding: 5px;
-    margin-top: 10px;
-  }
-    /* first section end */
-
-    /* second section start  */
-    #about{
-      text-align: center;
-      padding: 10px 10px 0 10px;
-    }
-    .card-two{
-      min-height: 600px;
-      display: grid;
-      grid-template-columns: 50% 50%;
-      column-gap: 20px;
-      justify-content: center;
-      align-content: center;
-      padding: 20px;
-    }
-    .me{
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      align-content: center;
-      font-size: 200%;
-    }
-    h3 span{
-      color: var(--main);
-      
-    }
-   
-    img {
-      max-width: 100%;
-      max-height: 100%;
-     }
-  
-    .links a, .links {
-      padding: 10px;
-      font-size: 90%;
-    }
-    .picture .img{
-      max-width: 118%;
-      margin-top: -86px;
-      margin-left: -10px;
-      height: 854px;
-      width: 324px;
-      background: url(../../images/pp4.png) top var(--main);
-
-    }
-    /* second section end */
-    /* third section start  */
-    .card-three{
-      min-height: 600px;
-      background-color: #eee;
-      display: grid;
-      grid-template-columns: 100%;
-      column-gap: 20px;
-      justify-content: center;
-      padding: 20px;
-
-    }
-    .head{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .edu-cards{
-      display: grid;
-      grid-template-columns: auto auto auto ;
-      justify-items: center;
-      justify-content: center;
-      column-gap: 20px;
-    }
-    .c{
-      background-color: #88d9dc;
-      width: 300px;
-      height: 500px; 
-      padding: 20px;
-      margin: 10px 0;
-      border-radius: 30px;
-    }
-    .c:hover{
-      box-shadow: 9px 5px black;
-    }
+}
 
 
-   
-      
-  
-/* third section end  */
-/* forth section start  */
+#CV, #CV a{
+  color: var(--main);
+  text-decoration: none;
+  background-color: black;
+  border-color: var(--main);
+  padding: 5px;
+  margin-top: 10px;
+}
+                                        /* first section end */
+                                        /* second section start  */
+#about{
+  text-align: center;
+  padding: 10px 10px 0 10px;
+}
+.card-two{
+  min-height: 600px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+.me{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 200%;
+}
+h3 span{
+  color: var(--main);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.links a, .links {
+  padding: 10px;
+  font-size: 90%;
+}
+.picture .img{
+  max-width: 118%;
+  margin-top: -86px;
+  margin-left: -10px;
+  height: 854px;
+  width: 324px;
+  background: url(../../images/pp4.png) top var(--main);
+}
+                                      /* second section end */
+                                      /* third section start  */
+.card-three{
+  min-height: 600px;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 100%;
+  column-gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edu-cards{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  justify-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+.c{
+  background-color: #88d9dc;
+  width: 300px;
+  height: 500px; 
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+}
+.c:hover{
+  box-shadow: 9px 5px black;
+} 
+                                        /* third section end  */
+                                        /* forth section start  */
 .forth-section{
   background: url(../../images/cover.jpg) no-repeat bottom;
   filter: grayscale(500%);
@@ -200,8 +182,6 @@
   grid-template-columns: auto ;
   justify-content: center;
   align-items: center;
-
-
 }
 .freelance{
   display: grid;
@@ -212,13 +192,10 @@
   font-size: calc(100% *2);
 }
 .freelance p{
-  color: white;
-  
+  color: white; 
 }
-
-
-/* forth section end  */
-/* fifth section start  */
+                                        /* forth section end  */
+                                        /* fifth section start  */
 .fifth-section{
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -250,33 +227,25 @@
   border: 4px solid #333;
   box-shadow: -407px 0 0 400px var(--main);
 }
-
-
-
-
-/* fifth section end  */
-/* sixth section start  */
- .sixth-section{
+                                            /* fifth section end  */
+                                            /* sixth section start  */
+.sixth-section{
   min-height: 600px;
   background-color: #eeeeee;
- }
- .flip-cards{
+}
+.flip-cards{
   display: grid;
   grid-template-columns: auto auto auto;
   padding-bottom: 20px;
   column-gap: 20px;
   margin: 45px;
- }
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+}
 .flip-card {
   background-color: transparent;
   height: 400px;
   width: 100%;
   margin-bottom: 40px;
 }
-
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -285,41 +254,31 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-
-/* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: black;
   color: white;
 }
-
-/* Style the back side */
 .flip-card-back {
   display: grid;
   padding: 10px;
   grid-template-columns: auto;
-  background: url(../../images/backflip.jpg);
+  background: url(../../images/a04fb45f-ce72-45f1-b492-ea6eeef28a6e.jpg);
   transform: rotateY(180deg);
   align-items: center;
-  align-content: space-evenly;
-  
-  
+  align-content: space-evenly; 
 }
 .flip-card-back a{
   text-decoration: none;
+  color: white;
 }
 .title{
   text-align: center;
@@ -334,11 +293,10 @@
   padding: 20px;
 }
 .flip-card-back{
-  padding: 10px;
-  
-}
-/* sixth section end  */
-/* footer starts */
+  padding: 10px; 
+  }
+                                            /* sixth section end  */
+                                            /* footer starts */
 footer{
   height: 150px;
   background-color: black;
@@ -358,21 +316,7 @@ footer{
   width: 100px;
   height: 30px;
 }
-
-
-
-
-
-/* footer ends  */
-
-
-
-
-
-
-
-
-
+                                             /* footer ends  */
 @media screen and (max-width: 890px) {
   .information,
   .card-two,
