@@ -103,7 +103,7 @@ span{
 .card-two{
   min-height: 600px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
   column-gap: 20px;
   justify-content: center;
   align-content: center;
@@ -322,9 +322,8 @@ footer{
   height: 30px;
 }
                                              /* footer ends  */
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 767px) {
   .information,
-  .card-two,
   .me,
   .edu-cards, 
   .forth-section,
@@ -336,3 +335,35 @@ footer{
     font-size: 100%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  .information,
+  .card-two,
+  .me,
+  .edu-cards, 
+  .forth-section,
+  .fifth-section,
+  .sixth-section,
+  .flip-cards{
+    grid-template-columns: auto auto;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+@media screen  and (max-width: 424px)  {
+  .card-two{
+    grid-template-columns: auto ;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px)  {
+  .card-two{
+    grid-template-columns: auto auto;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+
+
+
+
