@@ -1,0 +1,13 @@
+.box{
+    background-color: aqua;
+    border: 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(auto-fit, minmax(100px, 1fr)) ;
+}
