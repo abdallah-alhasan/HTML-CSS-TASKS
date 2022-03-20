@@ -1,4 +1,4 @@
-let result = 76;
+let result =80;
 
 
 switch(true){
@@ -17,8 +17,11 @@ switch(true){
   case (result >= 50 && result <= 59 ):
     console.log("E")
     break;
-  default:
-    console.log("Fail")
+    case result >= 0 && result < 50:
+      console.log("Fail");
+      break;
+    default:
+      console.log("Please enter a number between 0-100");
     break;
 }
 
